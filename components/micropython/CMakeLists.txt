@@ -48,6 +48,8 @@ if(CONFIG_COMPONENT_MICROPYTHON_ENABLE)
     
 
     ############## Add source files ###############
+    append_srcs_dir(MPY_PORT_SRCS "port/src/my_lib")
+
     append_srcs_dir(MPY_PORT_SRCS "port/src")
     append_srcs_dir(MPY_PORT_SRCS "port/src/audio")
     append_srcs_dir(MPY_PORT_SRCS "port/src/audio/wav")
