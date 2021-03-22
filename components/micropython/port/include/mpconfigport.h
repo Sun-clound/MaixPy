@@ -7,6 +7,8 @@
 // You can disable the built-in MicroPython compiler by setting the following
 // config option to 0.  If you do this then you won't get a REPL prompt, but you
 // will still be able to execute pre-compiled scripts, compiled with mpy-cross.
+#define MODULE_MY_LIB_ENABLED (1)
+
 
 #ifndef _MPCONFIGPORT_H_
 #define _MPCONFIGPORT_H_
